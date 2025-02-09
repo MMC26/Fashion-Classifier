@@ -1,2 +1,31 @@
-# Fashion-Classifier
-Implementació de K-means i KNN per tal de classificar peces de roba segons la seva forma i color
+# FASHION-CLASSIFIER
+
+Implementació de K-means i KNN per tal de classificar peces de roba segons la seva forma i color.
+
+## Contingut del repositori
+
+Aquest repositori inclou:
+
+- **images**: Carpeta que conté les imatges utilitzades. Dins d'aquesta carpeta:
+  - **test**: Conjunt d’imatges que farem servir com a conjunt de test.
+  - **train**: Conjunt d’imatges que utilitzarem com a conjunt d’entrenament per a la classificació de formes.
+  - **gt.json**: Arxiu amb la informació del Ground-Truth de les imatges.
+  - **gt_reduced**: Arxiu amb informació complementària sobre una part de les imatges que conformen el training set.
+
+- **utils.py**: Conté una sèrie de funcions necessàries per a convertir les imatges en color en altres espais.
+
+- **Kmeans.py**: Arxiu amb les funcions necessàries per a implementar el K-means per extreure els colors predominants.
+
+- **KNN.py**: Arxiu amb les funcions necessàries per implementar KNN i per etiquetar el nom de la peça de roba.
+
+- **my_labeling.py**: Arxiu on es combinen els dos mètodes d’etiquetatge i les millores per obtenir l’etiquetatge final de les imatges. Les diferents proves estan comentades i indicades.
+
+- **utils_data.py**: Conté una sèrie de funcions necessàries per a la visualització de resultats.
+
+- **Informe**: Informe amb les proves detallades i els resultats obtinguts.
+
+## AUTORS
+- David Ruiz Cáceres
+- Berta Martí Boncompte
+- Blanca Pinyol Chacon 
+- Maria Muñoz Cabestany 
