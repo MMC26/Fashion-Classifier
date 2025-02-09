@@ -24,6 +24,32 @@ Aquest repositori inclou:
 
 - **Informe**: Informe amb les proves detallades i els resultats obtinguts.
 
+## INSTAL·LACIÓ 
+
+1. **Clona el repositori:**
+   ```bash
+   git clone https://github.com/MMC26/Fashion-Classifier.git
+   cd Fashion-Classifier
+   ```
+2. **Llibreries:**
+    Aquest projecte utilitza diverses llibreries de Python que cal instal·lar abans d’executar-lo. Pots fer-ho creant un entorn virtual i instal·lant-les amb pip:
+
+    ```bash
+    pip install numpy
+    pip install matplotlib
+    pip install scipy
+    ```
+
+## RESULTATS
+- **Kmeans**
+    - Millor mètode d'inicialització: Kmeans++
+    - Millor heurística per bestK: Fisher Discriminant
+    - Major accuracy pels colors: Distància intra-class
+    - Millor K: K=6 amb 80% d'accuracy
+- **KNN** 
+    - Millors distàcnies: Manhattan i Minkowski major accuracy, però Euclidiana més ràpida.
+    - Millor K: K=4 amb 90% d'accuracy
+
 ## AUTORS
 - David Ruiz Cáceres
 - Berta Martí Boncompte
