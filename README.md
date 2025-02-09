@@ -2,7 +2,7 @@
 
 Implementació de K-means i KNN per tal de classificar peces de roba segons la seva forma i color.
 
-## Contingut del repositori
+##  CONTINGUT DEL REPOSITORI
 
 Aquest repositori inclou:
 
@@ -22,7 +22,7 @@ Aquest repositori inclou:
 
 - **utils_data.py**: Conté una sèrie de funcions necessàries per a la visualització de resultats.
 
-- **Informe**: Informe amb les proves detallades i els resultats obtinguts.
+- **Informe_Projecte_Etiquetador_Grup_7.pdf**: Informe amb les proves detallades i els resultats obtinguts.
 
 ## INSTAL·LACIÓ 
 
@@ -47,7 +47,7 @@ Aquest repositori inclou:
     - Major accuracy pels colors: Distància intra-class
     - Millor K: K=6 amb 80% d'accuracy
 - **KNN** 
-    - Millors distàcnies: Manhattan i Minkowski major accuracy, però Euclidiana més ràpida.
+    - Millors distàncies: Manhattan i Minkowski major accuracy, però Euclidiana més ràpida.
     - Millor K: K=4 amb 90% d'accuracy
 
 ## AUTORS
